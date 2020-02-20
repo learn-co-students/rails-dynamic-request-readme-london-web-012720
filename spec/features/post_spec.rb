@@ -7,7 +7,7 @@ describe 'navigate' do
 
   it 'loads the show page' do
     visit "/posts/#{@post.id}"
-    expect(page.status_code).to eq(200)
+    expect(page.status_code).to eq(200) 
   end
 
   it 'shows the title on the show page in an h1 tag' do
